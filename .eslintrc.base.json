@@ -1,6 +1,6 @@
 {
   "root": true,
-  "ignorePatterns": ["!**/*"],
+  "ignorePatterns": ["**/*"],
   "plugins": ["@nrwl/nx"],
   "overrides": [
     {
@@ -36,11 +36,6 @@
       "env": {
         "jest": true
       },
-      "rules": {}
-    },
-    {
-      "files": ["*.html"],
-      "extends": ["plugin:@nrwl/nx/angular-template"],
       "rules": {}
     }
   ]
